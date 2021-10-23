@@ -1,6 +1,22 @@
 .wrapper {
-  display: flex;
+  margin: 0 auto 0 auto;
+  width: 100px;
+}
+.wrapper-counter {
   font-size: 55px;
+  color: hotpink;
+  text-align: center;
+}
+.wrapper-btn {
+  /* background-color: hotpink; */
+  /* border: 2px solid black; */
+  display: flex;
   justify-content: center;
-  color: slateblue;
+  padding: 5px;
+}
+.btn {
+  background: hotpink;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 10px;
 }
